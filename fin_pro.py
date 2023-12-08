@@ -68,9 +68,9 @@ else:
     married = 0
 
 gen_id = st.select_slider('Are you male or female?', 
-                          options= ["Yes", "No"])
+                          options= ["Male", "Female"])
 
-if gen_id == "Yes":
+if gen_id == "Male":
     gen_id = 1
 else:
     gen_id = 0
